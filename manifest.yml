@@ -1,0 +1,11 @@
+image:
+manifests:
+  - image: graze/sqs-local:multiarch-amd64
+    platform:
+      architecture: amd64
+      os: linux
+
+  - image: graze/sqs-local:multiarch-arm64
+    platform:
+      architecture: arm64
+      os: linux
