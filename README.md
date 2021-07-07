@@ -17,7 +17,7 @@ docker run -p 9324:9324 -v "$PWD/elasticmq.conf:/elasticmq.conf" graze/sqs-local
 
 ### Multiarch
 
-This allows you to run the image on various architectures. The recommendation would be to use this if you're trying to run thi on an Apple M1.
+This allows you to run the image on various architectures. The recommendation would be to use this if you're trying to run this on an Apple M1.
 
 ```
 docker run -p 9324:9324 graze/sqs-local:multiarch
